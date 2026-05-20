@@ -37,6 +37,14 @@ The baseline model comparison results are saved in:
 
 This file includes the evaluation metrics for Linear Regression, Random Forest Regressor, and XGBoost Regressor.
 
+## XGBoost Prediction Plot
+
+The actual versus predicted inhibition efficiency plot for the XGBoost model is saved in:
+
+`reports/xgboost_actual_vs_predicted.png`
+
+This plot compares the experimental IE% values with the IE% values predicted by the XGBoost model.
+
 ## Next Steps
 
 - Add Article 3 data
