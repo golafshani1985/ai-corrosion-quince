@@ -29,6 +29,14 @@ Initial baseline models were built using experimental data from Article 1 and Ar
 - RMSE
 - R2 Score
 
+## Model Comparison Results
+
+The baseline model comparison results are saved in:
+
+`reports/model_comparison_results.csv`
+
+This file includes the evaluation metrics for Linear Regression, Random Forest Regressor, and XGBoost Regressor.
+
 ## Next Steps
 
 - Add Article 3 data
