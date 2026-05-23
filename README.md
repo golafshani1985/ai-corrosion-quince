@@ -52,12 +52,21 @@ The diagonal reference line represents the ideal prediction condition where:
 
 Points closer to this line indicate better prediction performance.
 
-## Next Steps
+## Project Structure
 
-- Add Article 3 data
-- Add acid type as a feature
-- Apply cross-validation
-- Add molecular descriptors from DFT and MD simulations
+project/
+│
+├── data/
+│   ├── raw/              Original raw data files
+│   └── processed/        Cleaned and processed data files
+│
+├── notebooks/            Jupyter notebooks for data analysis and model training
+│
+├── reports/              Model results, plots, and output files
+│
+├── README.md             Project description and instructions
+├── requirements.txt      Required Python packages
+└── .gitignore            Files and folders ignored by Git
 
 ## How to Run
 
@@ -68,3 +77,11 @@ pip install -r requirements.txt
 Then open and run:
 
 notebooks/01_baseline_model.ipynb
+
+## Next Steps
+
+- Add Article 3 data
+- Add acid type as a feature
+- Apply cross-validation
+- Add molecular descriptors from DFT and MD simulations
+
