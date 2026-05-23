@@ -45,6 +45,12 @@ The actual versus predicted inhibition efficiency plot for the XGBoost model is 
 
 This plot compares the experimental IE% values with the IE% values predicted by the XGBoost model.
 
+The diagonal reference line represents the ideal prediction condition where:
+
+`Predicted IE% = Actual IE%`
+
+Points closer to this line indicate better prediction performance.
+
 ## Next Steps
 
 - Add Article 3 data
