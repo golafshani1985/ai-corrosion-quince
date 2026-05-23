@@ -54,19 +54,17 @@ Points closer to this line indicate better prediction performance.
 
 ## Project Structure
 
+```text
 project/
-│
 ├── data/
 │   ├── raw/              Original raw data files
 │   └── processed/        Cleaned and processed data files
-│
 ├── notebooks/            Jupyter notebooks for data analysis and model training
-│
 ├── reports/              Model results, plots, and output files
-│
 ├── README.md             Project description and instructions
 ├── requirements.txt      Required Python packages
 └── .gitignore            Files and folders ignored by Git
+```
 
 ## How to Run
 
