@@ -6,6 +6,7 @@ This project uses machine learning models to predict the corrosion inhibition ef
 
 Initial baseline models were built using experimental data from Article 1 and Article 2.
 
+
 ## Input Features
 
 - Temperature (K)
@@ -57,3 +58,13 @@ Points closer to this line indicate better prediction performance.
 - Add acid type as a feature
 - Apply cross-validation
 - Add molecular descriptors from DFT and MD simulations
+
+## How to Run
+
+Install the required packages using:
+
+pip install -r requirements.txt
+
+Then open and run:
+
+notebooks/01_baseline_model.ipynb
