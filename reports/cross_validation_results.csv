@@ -1,0 +1,4 @@
+model,mean_R2,std_R2
+Linear Regression,0.77,0.115
+Random Forest,0.802,0.342
+XGBoost,0.83,0.307
