@@ -62,6 +62,12 @@ Although XGBoost showed the best performance in the current train-test split, th
 
 In the next step, cross-validation will be applied to evaluate the models more reliably.
 
+## Cross-Validation Results
+
+To reduce the dependence of the model evaluation on a single train-test split, 5-fold cross-validation was applied.
+
+The cross-validation results showed that XGBoost achieved the highest mean R2 score among the tested models. However, the relatively high standard deviation indicates that the model performance is still sensitive to data splitting, mainly due to the limited dataset size.
+
 ## Project Structure
 
 ```text
