@@ -52,6 +52,16 @@ The diagonal reference line represents the ideal prediction condition where:
 
 Points closer to this line indicate better prediction performance.
 
+## Current Limitations
+
+The current dataset is relatively small because it is based on experimental data extracted from Article 1 and Article 2.
+
+Therefore, the current model results should be considered as preliminary baseline results.
+
+Although XGBoost showed the best performance in the current train-test split, the dataset size is limited and the results may depend on the selected train-test split.
+
+In the next step, cross-validation will be applied to evaluate the models more reliably.
+
 ## Project Structure
 
 ```text
