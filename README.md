@@ -72,7 +72,7 @@ The cross-validation results are saved in:
 
 `reports/cross_validation_results.csv`
 
-This file includes the mean R2 score and standard deviation of R2 for each model.
+This file includes the mean and standard deviation of R2, MAE, and RMSE for each model.
 ## Project Structure
 
 ```text
