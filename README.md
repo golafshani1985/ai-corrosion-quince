@@ -68,6 +68,11 @@ To reduce the dependence of the model evaluation on a single train-test split, 5
 
 The cross-validation results showed that XGBoost achieved the highest mean R2 score among the tested models. However, the relatively high standard deviation indicates that the model performance is still sensitive to data splitting, mainly due to the limited dataset size.
 
+The cross-validation results are saved in:
+
+`reports/cross_validation_results.csv`
+
+This file includes the mean R2 score and standard deviation of R2 for each model.
 ## Project Structure
 
 ```text
