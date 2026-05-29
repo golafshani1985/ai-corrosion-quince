@@ -73,6 +73,24 @@ The cross-validation results are saved in:
 `reports/cross_validation_results.csv`
 
 This file includes the mean and standard deviation of R2, MAE, and RMSE for each model.
+
+## Data Sources and Related Publications
+
+The experimental dataset used in this project was manually extracted from three peer-reviewed research articles authored/co-authored by the project owner. These studies investigate the corrosion inhibition performance of quince extract and its bioactive compounds for St37/mild steel in acidic media.
+
+The extracted dataset includes experimental variables such as inhibitor concentration, temperature, electrochemical method, acid type, and inhibition efficiency (IE%).
+
+### Related Publications
+
+1. **Corrosion and Electrochemical Characterization of St37 in the Presence of Quince Extract as a Green and Sustainable Inhibitor**  
+   DOI: https://doi.org/10.1007/s12678-022-00788-6
+
+2. **Quantum Chemical and Molecular Dynamics Study of Quince Extract as a Corrosion Inhibitor for St37 Steel in Acidic Solution**  
+   DOI: https://doi.org/10.1016/j.rechem.2025.102107
+
+3. **MD and DFT Computational Simulations of Caffeoylquinic Derivatives as a Bio-Corrosion Inhibitor from Quince Extract with Experimental Investigation of Corrosion Protection on Mild Steel in 1M H2SO4**  
+   DOI: https://doi.org/10.1016/j.molstruc.2022.134701
+   
 ## Project Structure
 
 ```text
