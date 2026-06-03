@@ -99,6 +99,7 @@ project/
 │   ├── raw/              Original raw data files
 │   └── processed/        Cleaned and processed data files
 ├── notebooks/            Jupyter notebooks for data analysis and model training
+├── src/                  Python script version of the notebook
 ├── reports/              Model results, plots, and output files
 ├── README.md             Project description and instructions
 ├── requirements.txt      Required Python packages
