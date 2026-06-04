@@ -118,8 +118,10 @@ notebooks/01_baseline_model.ipynb
 
 ## Next Steps
 
-- Add Article 3 data
-- Add acid type as a feature
-- Apply cross-validation
-- Add molecular descriptors from DFT and MD simulations
+* Expand the experimental dataset by extracting compatible data from additional peer-reviewed corrosion studies.
+* Add computational molecular descriptors, such as adsorption energy, HOMO, LUMO, energy gap, and dipole moment, when consistent data are available.
+* Improve the preprocessing workflow using tools such as `OneHotEncoder`, `ColumnTransformer`, and model-specific pipelines.
+* Investigate advanced model interpretation methods, such as SHAP, after increasing the dataset size.
+* Further organize the Python code in the `src/` folder as the project grows.
+
 
