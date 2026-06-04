@@ -149,22 +149,10 @@ y_test
 # In[ ]:
 
 
-mae=mean_absolute_error(y_test,pred_lm)
-print('MAE:',mae)
-
-
-# In[ ]:
-
-
-rmse=np.sqrt(mean_squared_error(y_test,pred_lm))
-print('RMSE:',rmse)
-
-
-# In[ ]:
-
-
-r2=r2_score(y_test,pred_lm)
-print('R2:',r2)
+print("MAE:", mean_absolute_error(y_test, pred_lm))
+print("MSE:", mean_squared_error(y_test, pred_lm))
+print("RMSE:", np.sqrt(mean_squared_error(y_test, pred_lm)))
+print("R2:", r2_score(y_test, pred_lm))
 
 
 # In[ ]:
@@ -205,31 +193,10 @@ pred_rf=rfr.predict(X_test)
 # In[ ]:
 
 
-rfr.score(X_test,y_test)
-
-
-# In[ ]:
-
-
-from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score
-
-
-# In[ ]:
-
-
-print('MAE:',mean_absolute_error(y_test,pred_rf))
-
-
-# In[ ]:
-
-
-print('MSE:',mean_squared_error(y_test,pred_rf))
-
-
-# In[ ]:
-
-
-print('RMSE:',np.sqrt(mean_squared_error(y_test,pred_rf)))
+print("MAE:", mean_absolute_error(y_test, pred_rf))
+print("MSE:", mean_squared_error(y_test, pred_rf))
+print("RMSE:", np.sqrt(mean_squared_error(y_test, pred_rf)))
+print("R2:", r2_score(y_test, pred_rf))
 
 
 # ### XGBoost
