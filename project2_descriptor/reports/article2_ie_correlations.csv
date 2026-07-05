@@ -1,0 +1,9 @@
+,inhibition_efficiency_percent
+temperature_K,-0.833214014952736
+hardness_eV,-0.5684935258629025
+energy_gap_eV,-0.5668176304170521
+ELUMO_eV,0.30283647415296344
+EHOMO_eV,0.385691163750267
+fraction_electron_transfer_deltaN,0.4897531430006324
+adsorption_energy_kcal_mol,0.8674033901385899
+inhibition_efficiency_percent,1.0
